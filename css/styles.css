@@ -8,6 +8,7 @@ color: #757575;
     --brand-color: #212121;
     --bluebrand-clor: #2196f3;
     --discription-color: #757575; 
+    --margin-bottom:10px;
 }
 
 ul {
@@ -41,9 +42,19 @@ a {
 
 .countainer {
     width: 1200px;
-    padding-left: 15;
-    padding-right: 15;
+    padding-left: 215px;
+    padding-right: 215px;
     margin: 0 auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.header {
+padding-top: 24px;
+padding-bottom: 25px;
 }
 
 .site-nav .link {
@@ -81,9 +92,12 @@ a {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+
     background-color:#2F303A;
 }
 .hero-title {
+    padding-bottom: 30px;
+
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: 900;
@@ -103,6 +117,8 @@ a {
 }
 
 .particular-title {
+    margin-bottom: var(--margin-bottom);
+
     color: var(--brand-color);
     font-style: normal;
     font-weight: 700;
@@ -117,6 +133,8 @@ a {
 }
 
 .work-title {
+    margin-bottom: 50px;
+
     color: var(--brand-color);
     font-weight: 700;
     font-size: 36px;
@@ -129,6 +147,8 @@ a {
 }
 
 .team-title {
+    margin-bottom: 50px;
+
     color: var(--brand-color);
     font-weight: 700;
     font-size: 36px;
@@ -136,6 +156,8 @@ a {
 }
 
 .name {
+    margin-bottom: var(--margin-bottom);
+
     color: var(--brand-color); 
     font-weight: 500;
     font-size: 16px;
@@ -144,6 +166,9 @@ a {
 
 /* footer */
 .page-footer {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
     background-color: #2F303A;
     font-style: normal;
 }
@@ -188,6 +213,8 @@ a {
 }
 
 .project-titel{
+    margin-bottom: 4px;
+    
     color: var(--brand-color);
     font-weight: 700;
     font-size: 18px;
