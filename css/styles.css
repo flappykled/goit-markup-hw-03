@@ -286,7 +286,7 @@ a {
     line-height: 1.2;
 }
 
-.marg-button{
+.marg-button {
     display: flex;
      text-align: center;
     justify-content: center;
@@ -311,6 +311,10 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
+    letter-spacing: 3%;
+    width: 125px;
+    height: 38px;
 }
 
 .main-button:hover,
