@@ -52,6 +52,7 @@ a {
 }
 
 .header {
+    height: 80px;
     border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -124,8 +125,8 @@ a {
     background-color:#2F303A;
 }
 .hero-title {
-    margin-top: 0px;
-    margin-bottom: 30px;
+    width: 696px;
+    margin:auto;
     text-align: center;
 
     text-transform: uppercase;
@@ -144,12 +145,19 @@ a {
     line-height: 1.87;
     cursor: pointer;
     letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
+    margin-top: 30px;
+
 }
 
-
-.particular-list{
+.particular-list {
     display: flex;
-    gap: 30px;
+
+}
+
+.particular-list:not(:last-child) {
+    margin-right: 30px;
 }
 
 
@@ -182,15 +190,20 @@ a {
     line-height: 1.16;
 }
 
-.work-pic{
+.work-pic {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    
 }
+
 
 .work-item {
     width: calc((100% - 90px) / 3);
     
+}
+
+.work-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .team {
@@ -211,11 +224,22 @@ a {
 .team-pic {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .team-item {
+    background: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 120px) / 4);
+    margin: 15px;
+}
+
+.team-names {
+    padding: 30px 30px;
+    text-align: center;
+    justify-content: center;
+
 }
 
 .name {
@@ -237,6 +261,7 @@ a {
 }
 
 .street {
+    font-style: normal;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.71;
@@ -276,6 +301,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    border-radius: 4px;
     
 }
 
@@ -303,6 +329,11 @@ a {
 .project-item {
     border-bottom: 1px solid #EEEEEE;
     width: calc((100% - 90px) / 3);
+}
+
+.card-name {
+    padding: 20px 20px;
+    text-align: start;
 }
 
 .project-titel{
