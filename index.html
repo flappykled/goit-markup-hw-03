@@ -8,36 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <!-- header -->
-    <header class="header countainer">
-            <nav>
-                <a href="./index.html">
+    <header class="header">
+        <div class="countainer">
+        <div class="main-nav">
+            <nav class="main-nav">
+                <a class="main-logo" href="./index.html">
                     <span lang="en" class="web">Web</span><span lang="en" class="studio">Studio</span>
                 </a>
-            
                 <ul class="site-nav list">
-                    <li><a href="./index.html" class="link current">Студія</a></li>
-                    <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                    <li><a href="" class="link">Контакти</a></li>
+                    <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                    <li class="item"><a href="" class="link">Контакти</a></li>
                 </ul>
             </nav>
             <ul class="auth-nav">
-                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
+        </div>
+        </div>
+            
+            
     </header>
     <!-- main -->
     <main>
-        <section class="hero countainer">
+        <section class="hero">
+            <div class="countainer">
                 <h1 class="hero-title">Ефективні рішення для </br>вашого бізнесу</h1>
                 <button class="hero-button" type="button">Замовити послугу</button>
+            </div>
         </section>
 
         <section class="particular section">
@@ -76,13 +83,13 @@
             <div class="countainer">
                 <h2 class="work-title">Чим ми займаємося</h2>
                 <ul class="work-pic">
-                    <li>
+                    <li class="work-item">
                         <img src="./images/first.jpg" alt="Десктопні додатки" width="370" />
                     </li>
-                    <li>
+                    <li class="work-item">
                         <img src="./images/second.jpg" alt="мобільні додатки" width="370" />
                     </li>
-                    <li>
+                    <li class="work-item">
                         <img src="./images/third.jpg" alt="дизайнерські рішення" width="370" />
                     </li>
                 </ul>
@@ -93,21 +100,22 @@
             <div class="countainer">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-pic">
-                    <li>
+                    <li class="team-item">
                         <img src="./images/Ihor.jpg" alt="Ihor" width="270" />
                         <h3 class="name">Ігор Дем'яненко</h3>
                         <p>Product Designer</p>
-                    <li>
+                    </li>
+                    <li class="team-item">
                         <img src="./images/Olha.jpg" alt="Olha" width="270" />
                         <h3 class="name">Ольга Рєпіна</h3>
                         <p>Frontend Developer</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/Nick.jpg" alt="Nick" width="270" />
                         <h3 class="name">Микола Тарасов</h3>
                         <p>Marketing</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/Michael.jpg" alt="Michael" width="270" />
                         <h3 class="name">Михайло Єрмаков</h3>
                         <p>UI Designer</p>
@@ -118,7 +126,8 @@
         </section>
     </main>
     <!-- footer -->
-    <footer class="page-footer countainer">
+    <footer class="page-footer ">
+        <div class="countainer">
             <a href="./index.html">
                 <span lang="en" class="web">Web</span><span lang="en" class="studio-footer">Studio</span>
             </a>
@@ -136,6 +145,7 @@
                     </li>
                 </ul>
             </address>
+        </div>
     </footer>
 </body>
 </html>
