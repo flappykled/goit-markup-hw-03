@@ -300,7 +300,6 @@ a {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
     border-radius: 4px;
     margin-bottom: 50px;
     
@@ -313,11 +312,15 @@ a {
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
-    letter-spacing: 3%;
     width: 125px;
     height: 38px;
     
 }
+
+.button-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 
 .main-button:hover,
 .main-button:focus {
@@ -328,13 +331,17 @@ a {
 .project{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    
 
 }
 
 .project-item {
     border-bottom: 1px solid #EEEEEE;
     width: calc((100% - 90px) / 3);
+}
+
+.project-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .card-name {
