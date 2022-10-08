@@ -152,13 +152,14 @@ a {
 }
 
 .particular {
-    padding-bottom: 47px;
-    padding-top: 47px;
+    margin-bottom: 118px;
 }
 
 .particular-list {
     display: flex;
     gap: 30px;
+
+
 
 }
 
