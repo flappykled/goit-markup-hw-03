@@ -2,12 +2,6 @@ tml {
     box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-
 ul,
 ol {
     padding: 0;
