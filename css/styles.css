@@ -152,8 +152,7 @@ a {
 }
 
 .particular {
-    padding-top: 47px;
-    padding-bottom: 47px;
+
 }
 
 .particular-list {
@@ -230,6 +229,7 @@ a {
 .team-pic {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
 }
 
 .team-item {
@@ -353,6 +353,11 @@ a {
 
 .project-item {
     width: calc((100% - 90px) / 3);
+}
+
+.project-product {
+    line-height: 30px;
+    letter-spacing: 3%;
 }
 
 .card-name {
